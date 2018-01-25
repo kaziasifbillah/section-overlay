@@ -1,0 +1,42 @@
+/* Stock about & Stats
+=================================*/
+
+.vc_row.overlay {
+	z-index: 1;
+	color: #fff;
+}
+
+.vc_row.overlay::after {
+	content: '';
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	background: #20272a none repeat scroll 0 0;
+	z-index: -1;
+	opacity: .9;
+	display: block;
+}
+
+.bordered-btn {
+	position: relative;
+	display: inline-block;
+}
+
+.overlay .bordered-btn {
+	color: #fff;
+}
+
+.asif-stat-box h1 {
+	color: #39b4f3;
+	margin-bottom: 10px;
+}
+
+.vc_row.large-text {
+	font-size: 18px;
+}
+
+.vc_row.large-text .bordered-btn {
+	font-size: 20px;
+}
